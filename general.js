@@ -4,9 +4,9 @@ let object = document.getElementById('Obj');
         object.style.display="none";
     }
 //Play an Audio//
-    let count = 0;
+    var count = 0;
     function play(){
-        let audio = document.getElementById("kinetic_audio");
+        var audio = document.getElementById("kinetic_audio");
        
         if(count == 0){
             audio.play();
